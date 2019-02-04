@@ -1627,9 +1627,6 @@ table td.bck-td-4 {
 	background-color: #CBCCCE;
 	border: none;
 	margin-top: 10px;
-	-webkit-border-radius: 5px;
-	   -moz-border-radius: 5px;
-	        border-radius: 5px;
 }
 
 .bck-dropdown-3 .bck-dropdown-button {
