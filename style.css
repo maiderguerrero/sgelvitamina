@@ -942,7 +942,47 @@ body:not(.edit) .slider-indicators {
 	content: '';
 }
 
+
+/*CAJA3*/
+
+.bck-box.bck-box-3 {
+    min-height: 80px;
+    margin-top: 15px;
+    background-color: #F6F6F6;
+}
+
+.bck-box-3 .bck-title {
+    border-bottom: 0px solid #eee;
+    color: #9acb1e;
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+
+.bck-box.bck-box-3 .bck-content {
+    padding-left: 80px;
+}
+
+.bck-box.bck-box-3:before {
+	background-image: none;
+	font-family: 'FontAwesome';
+	content: '\f0a9';
+	margin: 0 5px 0 0px;
+	color: #9ac61e;
+	margin-right: 10px;
+}
+
+.bck-box.bck-box-3:after {
+	background-image: none;
+	font-family: 'FontAwesome';
+	content: '\f0a9';
+	margin: 0 5px 0 0px;
+	color: #9ac61e;
+	margin-right: 10px;
+}
+
 /**/
+
+
 
 /*ENLACES*/
 
