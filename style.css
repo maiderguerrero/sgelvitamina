@@ -676,11 +676,11 @@ body:not(.edit) .slider-indicators {
     top: initial;
     left: 15px;
 	height: 6px;
-    width: 6px;
+    width: 2px;
     background-color: transparent;
 	font-family: 'FontAwesome';
 	margin: 2px 5px 0 5px;
-	color: #9ac61e;
+	color: #878786;
 	-webkit-border-radius: 50%;
 	   -moz-border-radius: 50%;
 	        border-radius: 50%;
