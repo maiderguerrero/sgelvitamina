@@ -771,12 +771,13 @@ body:not(.edit) .slider-indicators {
 	z-index: 0;
 	color: #A6A6A5;
 	font-size: 1.5rem;
+	font-weight: bold;
 }
 
 #actividad .content .texto_curso ol.bck-ol-5 li:before,
 #actividad .popover-content ol.bck-ol-5 li:before,
 #actividad .content .workspace ul li ol.bck-ol-5 li:before {
-	content: counter(bck-li-counter);
+	content: counter(bck-li-counter, lower-alpha);
     margin-top: 1px;
     padding-right: 0px;
 	color: #1D1D1B;
