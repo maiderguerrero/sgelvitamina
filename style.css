@@ -780,9 +780,9 @@ body:not(.edit) .slider-indicators {
 	content: counter(bck-li-counter, upper-alpha);
     margin-top: 1px;
     padding-right: 0px;
-	color: #1D1D1B;
-	font-size: 2.25rem;
-	font-weight: bold;
+    color: #1D1D1B;
+    font-size: 2.85rem;
+    font-weight: bolder;
     text-align: right;
 }
 /**/
