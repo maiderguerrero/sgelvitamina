@@ -653,13 +653,13 @@ body:not(.edit) .slider-indicators {
 	list-style: none;
 }
 
-.texto_curso ul li:before,
-.workspace ul li ul li:before,
-.cke_contents ul li:before, .preview ul li:before,
-.classify-item ul li:before,
-#actividad .workspace.multiple-choice .js-item ul li:before,
-#actividad .workspace.matching .box ul li:before,
-#actividad .workspace.ordenar .js-rank-item ul li:before {
+.texto_curso ul .bck-ul-1 li:before,
+.workspace ul li ul .bck-ul-1 li:before,
+.cke_contents ul .bck-ul-1 li:before, .preview ul .bck-ul-1 li:before,
+.classify-item ul .bck-ul-1 li:before,
+#actividad .workspace.multiple-choice .js-item ul .bck-ul-1 li:before,
+#actividad .workspace.matching .box ul .bck-ul-1 li:before,
+#actividad .workspace.ordenar .js-rank-item ul .bck-ul-1 li:before {
     background-color: #AC218F;
     -webkit-border-radius: 0%;
        -moz-border-radius: 0%;
