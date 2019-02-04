@@ -1,17 +1,17 @@
 (function (blink) {
 	'use strict';
 
-	var sgelvitaminaStyle = function () {
+	var edebeStyle = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
-	sgelvitaminaStyle.prototype = {
-		bodyClassName: 'content_type_clase_sgelvitamina',
+	edebeStyle.prototype = {
+		bodyClassName: 'content_type_clase_edebe',
 		toolbar: { name: 'editorial', items: ['Blink_popover'] },
 		extraPlugins: ['blink_popover'],
 		ckEditorStyles: {
-			name: 'sgelvitamina',
+			name: 'edebe',
 styles: [
 				{ name: 'Título 1', element: 'h2', attributes: { 'class': 'bck-title bck-title-1'} },
 				{ name: 'Título 2', element: 'h3', attributes: { 'class': 'bck-title bck-title-2'} },
@@ -23,6 +23,7 @@ styles: [
 				{ name: 'Lista Ordenada 1', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' } },
 				{ name: 'Lista Ordenada 2', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
 				{ name: 'Lista Ordenada 3', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-3' } },
+				{ name: 'Lista Ordenada 4', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-4' } },
 
 				{ name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
 				{ name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
@@ -157,7 +158,7 @@ styles: [
 			if(blink.courseInfo && blink.courseInfo.courseDateCreated) var courseYearCreated = new Date(blink.courseInfo.courseDateCreated).getFullYear();
 			var yearCopy = courseYearCreated !== undefined ? courseYearCreated : 2016;
 			$navbarBottom
-				.attr('class', 'sgelvitamina-navbar')
+				.attr('class', 'edebe-navbar')
 				.wrapInner('<div class="navbar-content"></div>')
 				.find('ol')
 					.before('<span class="copyright">&copy;' +  yearCopy + '</span>')
@@ -327,7 +328,7 @@ styles: [
 
 		animateNavbarOnScroll: function () {
 			if (!blink.isApp) return;
-			var $navbar = $('.sgelvitamina-navbar');
+			var $navbar = $('.edebe-navbar');
 			var lastScrollTop = 0;
 			$('.js-slider-item').scroll(function () {
 				var scrollTop = $(this).scrollTop();
@@ -337,9 +338,9 @@ styles: [
 		}
 	};
 
-	sgelvitaminaStyle.prototype = _.extend({}, new blink.theme.styles.basic(), sgelvitaminaStyle.prototype);
+	edebeStyle.prototype = _.extend({}, new blink.theme.styles.basic(), edebeStyle.prototype);
 
-	blink.theme.styles['sgelvitamina'] = sgelvitaminaStyle;
+	blink.theme.styles['edebe'] = edebeStyle;
 
 })( blink );
 
