@@ -1,18 +1,17 @@
-
 (function (blink) {
 	'use strict';
 
-	var edebeStyle = function () {
+	var sgelvitaminaStyle = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
-	edebeStyle.prototype = {
-		bodyClassName: 'content_type_clase_edebe',
+	sgelvitaminaStyle.prototype = {
+		bodyClassName: 'content_type_clase_sgelvitamina',
 		toolbar: { name: 'editorial', items: ['Blink_popover'] },
 		extraPlugins: ['blink_popover'],
 		ckEditorStyles: {
-			name: 'edebe',
+			name: 'sgelvitamina',
 styles: [
 				{ name: 'Título 1', element: 'h2', attributes: { 'class': 'bck-title bck-title-1'} },
 				{ name: 'Título 2', element: 'h3', attributes: { 'class': 'bck-title bck-title-2'} },
@@ -158,7 +157,7 @@ styles: [
 			if(blink.courseInfo && blink.courseInfo.courseDateCreated) var courseYearCreated = new Date(blink.courseInfo.courseDateCreated).getFullYear();
 			var yearCopy = courseYearCreated !== undefined ? courseYearCreated : 2016;
 			$navbarBottom
-				.attr('class', 'edebe-navbar')
+				.attr('class', 'sgelvitamina-navbar')
 				.wrapInner('<div class="navbar-content"></div>')
 				.find('ol')
 					.before('<span class="copyright">&copy;' +  yearCopy + '</span>')
@@ -328,7 +327,7 @@ styles: [
 
 		animateNavbarOnScroll: function () {
 			if (!blink.isApp) return;
-			var $navbar = $('.edebe-navbar');
+			var $navbar = $('.sgelvitamina-navbar');
 			var lastScrollTop = 0;
 			$('.js-slider-item').scroll(function () {
 				var scrollTop = $(this).scrollTop();
@@ -338,9 +337,9 @@ styles: [
 		}
 	};
 
-	edebeStyle.prototype = _.extend({}, new blink.theme.styles.basic(), edebeStyle.prototype);
+	sgelvitaminaStyle.prototype = _.extend({}, new blink.theme.styles.basic(), sgelvitaminaStyle.prototype);
 
-	blink.theme.styles['edebe'] = edebeStyle;
+	blink.theme.styles['sgelvitamina'] = sgelvitaminaStyle;
 
 })( blink );
 
