@@ -959,13 +959,13 @@ body:not(.edit) .slider-indicators {
 }
 
 .bck-box.bck-box-3 .bck-content {
-    padding: 40px;
+    padding: 20px;
 }
 
 .bck-box.bck-box-3:before {
 	background-image: none;
 	font-family: 'FontAwesome';
-	content: '\f0a9';
+	content: '';
 	margin: 0 5px 0 0px;
 	color: #9ac61e;
 	margin-right: 10px;
@@ -974,7 +974,7 @@ body:not(.edit) .slider-indicators {
 .bck-box.bck-box-3:after {
 	background-image: none;
 	font-family: 'FontAwesome';
-	content: '\f0a9';
+	content: '';
 	margin: 0 5px 0 0px;
 	color: #9ac61e;
 	margin-right: 10px;
