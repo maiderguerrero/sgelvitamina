@@ -1,4 +1,4 @@
-(function (blink) {
+(function (blin) {
 	'use strict';
 
 	var edebeStyle = function () {
