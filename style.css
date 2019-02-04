@@ -1621,6 +1621,52 @@ table td.bck-td-4 {
 }
 /**/
 
+/*Dropdown 3*/
+
+.bck-dropdown.bck-dropdown-3 {
+	background-color: #CBCCCE;
+	border: none;
+	margin-top: 10px;
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+	        border-radius: 5px;
+}
+
+.bck-dropdown-3 .bck-dropdown-button {
+	margin-top: 0px;
+	font-size: 1.2rem;
+}
+
+.bck-dropdown-3 .bck-dropdown-icon {
+	background-color: #9ACB1E;
+	width: 25px;
+	height: 10px;
+}
+
+.bck-dropdown-3 .bck-dropdown-icon > .fa {
+	border: 0px solid white;
+}
+
+.bck-dropdown-3 .fa-chevron-up:before, .bck-dropdown-3 .fa-chevron-down:before {
+	font-size: 1.2rem;
+}
+
+.bck-dropdown-3 .bck-dropdown-titulo {
+    font-size: 2.5rem;
+    padding-left: 0px;
+    font-weight: bold;
+
+}
+
+.bck-dropdown-3 .bck-dropdown-content {
+	background-color: #CBCCCE;
+	border: none;
+    padding-left: 17px;
+	max-height: 800%;
+}
+
+/**/
+
 /*Activities Dropdown*/
 
 .bck-dropdown-2.activities-dropdown .fa-chevron-up:before,
