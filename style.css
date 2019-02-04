@@ -741,6 +741,7 @@ body:not(.edit) .slider-indicators {
     z-index: 0;
     font-size: 1.85rem;
     font-weight: bold;
+
 }
 
 
@@ -754,6 +755,8 @@ body:not(.edit) .slider-indicators {
 	font-size: 2.4rem;
 	font-weight: bold;
     text-align: right;
+    left: -30px;
+    width: 30px;
 }
 /**/
 
