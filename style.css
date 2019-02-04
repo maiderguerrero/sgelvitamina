@@ -959,7 +959,7 @@ body:not(.edit) .slider-indicators {
 }
 
 .bck-box.bck-box-3 .bck-content {
-    padding-left: 80px;
+    padding: 40px;
 }
 
 .bck-box.bck-box-3:before {
