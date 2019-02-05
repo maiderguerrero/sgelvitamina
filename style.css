@@ -795,34 +795,36 @@ body:not(.edit) .slider-indicators {
 
 /*LISTA ORDENADA 6*/
 
+#actividad .content .cke_contents .bck-ol-6,
 #actividad .content .texto_curso .bck-ol-6,
 #actividad .content .workspace ul li .bck-ol-6 {
-	list-style-type: none;
-	counter-reset: bck-li-counter;
+list-style-type: none;
+counter-reset: bck-li-counter;
 }
 
+#actividad .content .cke_contents .bck-ol-6 li,
 #actividad .content .texto_curso .bck-ol-6 li,
 #actividad .popover-content .bck-ol-6 li,
 #actividad .content .workspace ul li .bck-ol-6 li {
-	counter-increment: bck-li-counter;
-    padding-left: 25px;
-    position: relative;
-    z-index: 0;
-    color: #414141;
-    font-size: 7.5rem;
-    font-weight: 100;
+counter-increment: bck-li-counter;
+  padding-left: 25px;
+  position: relative;
+  z-index: 0;
+  color: #414141;
+  font-size: 7.5rem;
+  font-weight: 100;
 }
-
+#actividad .content .cke_contents .bck-ol-6 li:before,
 #actividad .content .texto_curso ol.bck-ol-6 li:before,
 #actividad .popover-content ol.bck-ol-6 li:before,
 #actividad .content .workspace ul li ol.bck-ol-6 li:before {
-	content: counter(bck-li-counter);
-    margin-top: 1px;
-    padding-right: 0px;
-    color: #A9A9A8;
-    font-size: 7.5rem;
-    font-weight: 100;
-    text-align: right;
+content: counter(bck-li-counter);
+  margin-top: 1px;
+  padding-right: 0px;
+  color: #A9A9A8;
+  font-size: 7.5rem;
+  font-weight: 100;
+  text-align: right;
 
 }
 /**/
