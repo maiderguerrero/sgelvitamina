@@ -789,7 +789,7 @@ body:not(.edit) .slider-indicators {
 #actividad .popover-content ol.bck-ol-5 li:before,
 #actividad .content .workspace ul li ol.bck-ol-5 li:before {
 	content: counter(bck-li-counter, upper-alpha);
-    margin-top: -2.5px;
+    margin-top: -5.5px;
     padding-right: 0px;
     color: #A6A6AA;
     font-size: 3.85rem;
