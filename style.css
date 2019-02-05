@@ -776,7 +776,7 @@ body:not(.edit) .slider-indicators {
 #actividad .popover-content .bck-ol-5 li,
 #actividad .content .workspace ul li .bck-ol-5 li {
 	counter-increment: bck-li-counter;
-	padding-left: 4px;
+	padding-left: 15px;
 	position: relative;
 	z-index: 0;
 	color: #4A9BBB;
@@ -789,10 +789,10 @@ body:not(.edit) .slider-indicators {
 #actividad .popover-content ol.bck-ol-5 li:before,
 #actividad .content .workspace ul li ol.bck-ol-5 li:before {
 	content: counter(bck-li-counter, upper-alpha);
-    margin-top: 1px;
+    margin-top: -2.5px;
     padding-right: 0px;
     color: #A6A6AA;
-    font-size: 2.85rem;
+    font-size: 3.85rem;
     font-weight: bolder;
     text-align: right;
 }
