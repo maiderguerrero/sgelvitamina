@@ -805,7 +805,7 @@ body:not(.edit) .slider-indicators {
 #actividad .popover-content .bck-ol-6 li,
 #actividad .content .workspace ul li .bck-ol-6 li {
 	counter-increment: bck-li-counter;
-    padding-left: 4px;
+    padding-left: 25px;
     position: relative;
     z-index: 0;
     color: #414141;
