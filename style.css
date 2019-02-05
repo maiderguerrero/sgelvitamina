@@ -188,17 +188,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #bo
     opacity: 1;
 }
 
-#book-index .col-indice {
-    padding: 0;
-    position: absolute;
-    z-index: 2;
-    background: #dc715f;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
+
 
 #book-index #indice .unit-content .actividades .item {
     background: #e0cccc;
