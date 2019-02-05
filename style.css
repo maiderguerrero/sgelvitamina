@@ -1770,8 +1770,9 @@ table td.bck-td-4 {
 .bck-dropdown-3 .bck-dropdown-content {
 	background-color: #D4D4D4;
 	border: none;
-    padding-left: 17px;
+    padding-left: 37px;
 	max-height: 800%;
+	font-weight: 400;
 }
 
 /**/
