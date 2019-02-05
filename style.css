@@ -805,24 +805,25 @@ body:not(.edit) .slider-indicators {
 #actividad .popover-content .bck-ol-6 li,
 #actividad .content .workspace ul li .bck-ol-6 li {
 	counter-increment: bck-li-counter;
-	padding-left: 4px;
-	position: relative;
-	z-index: 0;
-	color: #A6A6A5;
-	font-size: 2.5rem;
-	font-weight: bold;
+    padding-left: 4px;
+    position: relative;
+    z-index: 0;
+    color: #414141;
+    font-size: 7.5rem;
+    font-weight: 100;
 }
 
 #actividad .content .texto_curso ol.bck-ol-6 li:before,
 #actividad .popover-content ol.bck-ol-6 li:before,
 #actividad .content .workspace ul li ol.bck-ol-6 li:before {
-	content: counter(bck-li-counter, upper-alpha);
+	content: counter(bck-li-counter);
     margin-top: 1px;
     padding-right: 0px;
-    color: #1D1D1B;
-    font-size: 2.85rem;
-    font-weight: bolder;
+    color: #A9A9A8;
+    font-size: 7.5rem;
+    font-weight: 100;
     text-align: right;
+
 }
 /**/
 
