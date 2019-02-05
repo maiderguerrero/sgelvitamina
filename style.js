@@ -1,6 +1,7 @@
 (function (blink) {
 	'use strict';
 
+	var subunit_slide_titles = [];
 	var sgelvitaminaStyle = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
@@ -8,49 +9,76 @@
 
 	sgelvitaminaStyle.prototype = {
 		bodyClassName: 'content_type_clase_sgelvitamina',
-		toolbar: { name: 'editorial', items: ['Blink_popover'] },
-		extraPlugins: ['blink_popover'],
 		ckEditorStyles: {
 			name: 'sgelvitamina',
-styles: [
-				{ name: 'Título 1', element: 'h2', attributes: { 'class': 'bck-title bck-title-1'} },
-				{ name: 'Título 2', element: 'h3', attributes: { 'class': 'bck-title bck-title-2'} },
-				{ name: 'Título 3', element: 'h3', attributes: { 'class': 'bck-title bck-title-3'} },
+			styles: [
+				{ name: 'TÃ­tulo base', element: 'h2', attributes: { 'class': 'titulobase'} },
+				{ name: 'TÃ­tulo 1', element: 'h2', attributes: { 'class': 'bck-title1'} },
+				{ name: 'TÃ­tulo 2', element: 'h3', attributes: { 'class': 'bck-title2'} },
+				{ name: 'TÃ­tulo 3', element: 'h3', attributes: { 'class': 'bck-title3'} },
+				{ name: 'TÃ­tulo tema', element: 'h3', attributes: { 'class': 'titulotema'} },
+				{ name: 'TÃ­tulo azul', element: 'h3', attributes: { 'class': 'azul'} },
+				{ name: 'TÃ­tulo azul 2', element: 'h3', attributes: { 'class': 'azuldos'} },
+				{ name: 'TÃ­tulo azul quÃ­mica', element: 'h3', attributes: { 'class': 'azulquimica'} },
+				{ name: 'Proyecto', element: 'h3', attributes: { 'class': 'proyecto'} },
+				{ name: 'Proyecto 2', element: 'h3', attributes: { 'class': 'proyectodos'} },
+				{ name: 'EvaluaciÃ³n', element: 'h3', attributes: { 'class': 'evaluacion'} },
 
-				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis'} },
+				{ name: 'Ã‰nfasis', element: 'span', attributes: { 'class': 'bck-enfasis'} },
+				{ name: 'Ã‰nfasis Naranja', element: 'span', attributes: { 'class': 'bck-enfasis-naranja'} },
+				{ name: 'Versalitas', element: 'span', attributes: { 'class': 'bck-versalitas'} },
 
 				{ name: 'Lista Desordenada', element: 'ul', attributes: { 'class': 'bck-ul'} },
-				{ name: 'Lista Ordenada 1', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' } },
-				{ name: 'Lista Ordenada 2', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
-				{ name: 'Lista Ordenada 3', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-3' } },
-				{ name: 'Lista Ordenada 4', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-4' } },
-				{ name: 'Lista Ordenada 5', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-5' } },
-				{ name: 'Lista Ordenada 6', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-6' } },
-				{ name: 'Lista Ordenada 7', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-7' } },
+				{ name: 'Lista Desordenada 2', element: 'ul', attributes: { 'class': 'bck-ul-2'} },
+				{ name: 'Lista Desordenada 3', element: 'ul', attributes: { 'class': 'bck-ul-3'} },
+				{ name: 'Lista Ordenada', element: 'ol', attributes: { 'class': 'bck-ol' } },
+				{ name: 'Lista Ordenada 2', element: 'ol', attributes: { 'class': 'bck-ol-2' } },
+				{ name: 'Lista Ordenada 3', element: 'ol', attributes: { 'class': 'bck-ol-3' } },
 
-
-
-				{ name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
-				{ name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
-				{ name: 'Caja 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-3' } },
-				{ name: 'Caja 4', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-4' } },
+				{ name: 'Caja simple', type: 'widget', widget: 'blink_box', attributes: { 'class': 'simple' } },
+				{ name: 'Caja simple 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'simple-2' } },
+				{ name: 'Caja simple 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'simple-3' } },
+				{ name: 'Caja inicio', type: 'widget', widget: 'blink_box', attributes: { 'class': 'inicio' } },
+				{ name: 'Caja blanca', type: 'widget', widget: 'blink_box', attributes: { 'class': 'blanca' } },
+				{ name: 'Caja proyecto', type: 'widget', widget: 'blink_box', attributes: { 'class': 'cajaproyecto' } },
+				{ name: 'Caja marrÃ³n', type: 'widget', widget: 'blink_box', attributes: { 'class': 'cajamarron' } },
+				{ name: 'Caja buen vivir', type: 'widget', widget: 'blink_box', attributes: { 'class': 'buenvivir' } },
+				{ name: 'Caja saberes', type: 'widget', widget: 'blink_box', attributes: { 'class': 'saberes' } },
+				{ name: 'Caja sabÃ­as que', type: 'widget', widget: 'blink_box', attributes: { 'class': 'sabias' } },
+				{ name: 'Caja desequilibrio', type: 'widget', widget: 'blink_box', attributes: { 'class': 'desequilibrio' } },
+				{ name: 'Caja tic', type: 'widget', widget: 'blink_box', attributes: { 'class': 'tic' } },
+				{ name: 'Caja valores', type: 'widget', widget: 'blink_box', attributes: { 'class': 'valores' } },
+				{ name: 'Caja indagaciÃ³n', type: 'widget', widget: 'blink_box', attributes: { 'class': 'indagacion' } },
+				{ name: 'Caja evaluaciÃ³n', type: 'widget', widget: 'blink_box', attributes: { 'class': 'cajaevaluacion' } },
+				{ name: 'Caja evaluaciÃ³n dos', type: 'widget', widget: 'blink_box', attributes: { 'class': 'cajaevaluaciondos' } },
+				{ name: 'Caja evaluaciÃ³n tres', type: 'widget', widget: 'blink_box', attributes: { 'class': 'cajaevaluaciontres' } },
+                { name: 'Caja estrategia', type: 'widget', widget: 'blink_box', attributes: { 'class': 'estrategia' } },
+                { name: 'Caja diversidad', type: 'widget', widget: 'blink_box', attributes: { 'class': 'diver' } },
+				{ name: 'Caja Interdisciplinariedad', type: 'widget', widget: 'blink_box', attributes: { 'class': 'inter' } },
+				{ name: 'Caja laboratorio', type: 'widget', widget: 'blink_box', attributes: { 'class': 'laboratorio' } },
+				{ name: 'Caja ejercicio resuelto', type: 'widget', widget: 'blink_box', attributes: { 'class': 'ejercicioresuelto' } },
+				{ name: 'Caja seguridad', type: 'widget', widget: 'blink_box', attributes: { 'class': 'seguridad' } },
+				{ name: 'Caja Frases', type: 'widget', widget: 'blink_box', attributes: { 'class': 'frases' } },
+				{ name: 'Caja glosario', type: 'widget', widget: 'blink_box', attributes: { 'class': 'glosario' } },
 
 				{ name: 'Tabla', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table'} },
-				{ name: 'Celda 1', element: 'td', attributes: { 'class': 'bck-td bck-td-1'} },
-				{ name: 'Celda 2', element: 'td', attributes: { 'class': 'bck-td bck-td-2'} },
-				{ name: 'Celda 3', element: 'td', attributes: { 'class': 'bck-td bck-td-3'} },
-				{ name: 'Celda 4', element: 'td', attributes: { 'class': 'bck-td bck-td-4'} },
+				{ name: 'Celda1', element: 'td', attributes: { 'class': 'bck-td'} },
+				{ name: 'Celda2', element: 'td', attributes: { 'class': 'bck-td-dos'} },
+				{ name: 'Celda morada', element: 'td', attributes: { 'class': 'bck-td-tres'} },
 
-				{ name: 'Enlace web', element: 'a', attributes: { 'class': 'bck-link'} },
+				{ name: 'Desplegable', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'sgelvitamina-dropdown' } },
+				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'sgelvitamina-dropdown-2' } },
 
-				{ name: 'Desplegable 1', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown-1' } },
-				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown-2' } },
-				{ name: 'Desplegable 3', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown-3' } },
+				{ name: 'Imagen Sin Bordes', type: 'widget', widget: 'image', attributes: { 'class': 'normal-img' } },
+				{ name: 'Imagen derecha', element: 'img', attributes: { 'class': 'bck-img right' } },
+				{ name: 'Imagen izquierda', element: 'img', attributes: { 'class': 'bck-img left' } },
+
+				{ name: 'icono ablink', element: 'span', attributes: { 'class': 'icono ablink' } },
+				{ name: 'icono ascorm', element: 'span', attributes: { 'class': 'icono ascorm' } }
 			]
 		},
 		slidesTitle: {},
 		subunits: [],
-		totalSlides: 0,
 
 		init: function () {
 			var parent = blink.theme.styles.basic.prototype,
@@ -472,3 +500,4 @@ styles: [
 	blink.theme.styles['sgelvitamina_educacion'] = sgelvitaminaStyle;
 
 })( blink );
+
