@@ -1020,7 +1020,46 @@ body:not(.edit) .slider-indicators {
 
 /**/
 
+/*CAJA4*/
 
+.bck-box.bck-box-4 {
+    min-height: 80px;
+    margin-top: 15px;
+    background-color: #D4D4D4;
+}
+
+.bck-box-4 .bck-title {
+    border-bottom: 0px solid #eee;
+    color: #fff;
+    font-size: 2.1rem;
+    font-weight: bold;
+    background-color: #D4D4D4;
+}
+
+.bck-box.bck-box-4 .bck-content {
+    padding: 20px;
+    background-color: #D4D4D4;
+}
+
+.bck-box.bck-box-4:before {
+	background-image: none;
+	font-family: 'FontAwesome';
+	content: '';
+	margin: 0 5px 0 0px;
+	color: #9ac61e;
+	margin-right: 10px;
+}
+
+.bck-box.bck-box-4:after {
+	background-image: none;
+	font-family: 'FontAwesome';
+	content: '';
+	margin: 0 5px 0 0px;
+	color: #9ac61e;
+	margin-right: 10px;
+}
+
+/**/
 
 /*ENLACES*/
 
