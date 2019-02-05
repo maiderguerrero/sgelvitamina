@@ -223,6 +223,11 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover, 
     background-color: #BE1F24;
 }
 
+#book-index #indice .unit-content .actividades .item .title {
+    font-weight: 800;
+    font-size: 1.7rem;
+}
+
 /*HEADER*/
 
 #actividad .content .header .title img,
