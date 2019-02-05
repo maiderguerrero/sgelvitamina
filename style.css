@@ -233,6 +233,16 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover, 
     font-size: 2rem;
 }
 
+#indice .unit-content .actividades .item .title {
+    word-wrap: break-word;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    display: inline-block;
+    max-width: 300px;
+    color: #fff;
+}
+
 /**/
 
 /*HEADER*/
