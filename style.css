@@ -819,7 +819,7 @@ body:not(.edit) .slider-indicators {
 	content: counter(bck-li-counter);
     margin-top: 1px;
     padding-right: 0px;
-    color: #A9A9A8;
+    color: #A6A6AA;
     font-size: 7.5rem;
     font-weight: 100;
     text-align: right;
