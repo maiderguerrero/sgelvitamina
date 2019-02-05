@@ -170,7 +170,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
 	top: 0;
     left: 0;
     z-index: 1;
-    background: #be1f24 !important;
+    background: #be1f24;
     -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
     -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
