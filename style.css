@@ -1746,9 +1746,9 @@ table td.bck-td-4 {
 	background-color: #D4D4D4;
 	border: none;
 	margin-top: 10px;
-	-webkit-border-radius: 5px;
-	   -moz-border-radius: 5px;
-	        border-radius: 5px;
+	-webkit-border-radius: 0px;
+	   -moz-border-radius: 0px;
+	        border-radius: 0px;
 }
 
 .bck-dropdown-3 .bck-dropdown-button {
