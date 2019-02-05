@@ -243,6 +243,14 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover, 
     color: #fff;
 }
 
+#indice .unit-content .actividades .item {
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+    text-align: left;
+    padding: 15px 5px;
+    color: #fff;
+}
+
 /**/
 
 /*HEADER*/
