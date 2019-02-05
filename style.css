@@ -212,6 +212,17 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover, 
     background: #EC968C;
 }
 
+.libro-left ul li a.book-index.active {
+    background-color: #dc715f;
+}
+
+.libro-left #btn-book-index, #indice .unit-content {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    background-color: #BE1F24;
+}
+
 /*HEADER*/
 
 #actividad .content .header .title img,
