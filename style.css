@@ -668,13 +668,13 @@ body:not(.edit) .slider-indicators {
 
 /*LISTA ORDENADA 2*/
 
-#actividad .content .cke_contents .texto_curso .bck-ol-2,
+#actividad .content .texto_curso .bck-ol-2,
 #actividad .content .workspace ul li .bck-ol-2 {
 	list-style-type: none;
 	counter-reset: bck-li-counter;
 }
 
-#actividad .content .cke_contents .texto_curso .bck-ol-2 li,
+#actividad .content .texto_curso .bck-ol-2 li,
 #actividad .popover-content .bck-ol-2 li,
 #actividad .content .workspace ul li .bck-ol-2 li {
 	counter-increment: bck-li-counter;
@@ -683,7 +683,7 @@ body:not(.edit) .slider-indicators {
 	z-index: 0;
 }
 
-#actividad .content .cke_contents .texto_curso ol.bck-ol-2 li:before,
+#actividad .content .texto_curso ol.bck-ol-2 li:before,
 #actividad .popover-content ol.bck-ol-2 li:before,
 #actividad .content .workspace ul li ol.bck-ol-2 li:before {
 	content: counter(bck-li-counter, lower-alpha);
@@ -696,13 +696,13 @@ body:not(.edit) .slider-indicators {
 
 /*LISTA ORDENADA 3*/
 
-#actividad .content .cke_contents .texto_curso .bck-ol-3,
+#actividad .content .texto_curso .bck-ol-3,
 #actividad .content .workspace ul li .bck-ol-3 {
 	list-style-type: none;
 	counter-reset: bck-li-counter;
 }
 
-#actividad .content .cke_contents .texto_curso .bck-ol-3 li,
+#actividad .content .texto_curso .bck-ol-3 li,
 #actividad .popover-content .bck-ol-3 li,
 #actividad .content .workspace ul li .bck-ol-3 li {
 	counter-increment: bck-li-counter;
@@ -711,7 +711,7 @@ body:not(.edit) .slider-indicators {
 	z-index: 0;
 }
 
-#actividad .content .cke_contents .texto_curso ol.bck-ol-3 li:before,
+#actividad .content .texto_curso ol.bck-ol-3 li:before,
 #actividad .popover-content ol.bck-ol-3 li:before,
 #actividad .content .workspace ul li ol.bck-ol-3 li:before {
 	content: counter(bck-li-counter, lower-alpha);
@@ -726,13 +726,13 @@ body:not(.edit) .slider-indicators {
 
 /*LISTA ORDENADA 4*/
 
-#actividad .content .cke_contents .texto_curso .bck-ol-4,
+#actividad .content .texto_curso .bck-ol-4,
 #actividad .content .workspace ul li .bck-ol-4 {
 	list-style-type: none;
 	counter-reset: bck-li-counter;
 }
 
-#actividad .content .cke_contents .texto_curso .bck-ol-4 li,
+#actividad .content .texto_curso .bck-ol-4 li,
 #actividad .popover-content .bck-ol-4 li,
 #actividad .content .workspace ul li .bck-ol-4 li {
 	counter-increment: bck-li-counter;
@@ -745,7 +745,7 @@ body:not(.edit) .slider-indicators {
 }
 
 
-#actividad .content .cke_contents .texto_curso ol.bck-ol-4 li:before,
+#actividad .content .texto_curso ol.bck-ol-4 li:before,
 #actividad .popover-content ol.bck-ol-4 li:before,
 #actividad .content .workspace ul li ol.bck-ol-4 li:before {
 	content: counter(bck-li-counter);
@@ -762,13 +762,15 @@ body:not(.edit) .slider-indicators {
 
 /*LISTA ORDENADA 5*/
 
-#actividad .content .cke_contents .texto_curso .bck-ol-5,
+#actividad .content .cke_contents .bck-ol-5,
+#actividad .content .texto_curso .bck-ol-5,
 #actividad .content .workspace ul li .bck-ol-5 {
 	list-style-type: none;
 	counter-reset: bck-li-counter;
 }
 
-#actividad .content .cke_contents .texto_curso .bck-ol-5 li,
+#actividad .content .cke_contents .bck-ol-5 li,
+#actividad .content .texto_curso .bck-ol-5 li,
 #actividad .popover-content .bck-ol-5 li,
 #actividad .content .workspace ul li .bck-ol-5 li {
 	counter-increment: bck-li-counter;
@@ -780,7 +782,8 @@ body:not(.edit) .slider-indicators {
 	font-weight: bold;
 }
 
-#actividad .content .cke_contents .texto_curso ol.bck-ol-5 li:before,
+#actividad .content .cke_contents ol.bck-ol-5 li:before,
+#actividad .content .texto_curso ol.bck-ol-5 li:before,
 #actividad .popover-content ol.bck-ol-5 li:before,
 #actividad .content .workspace ul li ol.bck-ol-5 li:before {
 	content: counter(bck-li-counter, upper-alpha);
@@ -831,13 +834,13 @@ content: counter(bck-li-counter);
 
 /*LISTA ORDENADA 7*/
 
-#actividad .content .cke_contents .texto_curso .bck-ol-7,
+#actividad .content .texto_curso .bck-ol-7,
 #actividad .content .workspace ul li .bck-ol-7 {
 	list-style-type: none;
 	counter-reset: bck-li-counter;
 }
 
-#actividad .content .cke_contents .texto_curso .bck-ol-7 li,
+#actividad .content .texto_curso .bck-ol-7 li,
 #actividad .popover-content .bck-ol-7 li,
 #actividad .content .workspace ul li .bck-ol-7 li {
 	counter-increment: bck-li-counter;
@@ -849,7 +852,7 @@ content: counter(bck-li-counter);
     font-weight: 100;
 }
 
-#actividad .content .cke_contents .texto_curso ol.bck-ol-7 li:before,
+#actividad .content .texto_curso ol.bck-ol-7 li:before,
 #actividad .popover-content ol.bck-ol-7 li:before,
 #actividad .content .workspace ul li ol.bck-ol-7 li:before {
 	content: counter(bck-li-counter);
@@ -1018,20 +1021,20 @@ content: counter(bck-li-counter);
 
 /*CAJA3*/
 
-.bck-box.bck-box-3 .cke_contents {
+.bck-box.bck-box-3 {
     min-height: 80px;
     margin-top: 15px;
     background-color: #F6F6F6;
 }
 
-.bck-box-3 .bck-title .cke_contents {
+.bck-box-3 .bck-title {
     border-bottom: 0px solid #eee;
     color: #9acb1e;
     font-size: 2.1rem;
     font-weight: bold;
 }
 
-.bck-box.bck-box-3 .bck-content .cke_contents {
+.bck-box.bck-box-3 .bck-content {
     padding: 20px;
 }
 
