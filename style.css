@@ -228,6 +228,13 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover, 
     font-size: 1.7rem;
 }
 
+#book-index #indice .units ul li a .title {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/**/
+
 /*HEADER*/
 
 #actividad .content .header .title img,
