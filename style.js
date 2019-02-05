@@ -26,6 +26,7 @@ styles: [
 				{ name: 'Lista Ordenada 4', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-4' } },
 				{ name: 'Lista Ordenada 5', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-5' } },
 				{ name: 'Lista Ordenada 6', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-6' } },
+				{ name: 'Lista Ordenada 7', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-7' } },
 
 
 
