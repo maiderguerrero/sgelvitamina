@@ -1145,6 +1145,7 @@ content: counter(bck-li-counter);
 .bck-box.bck-box-4 .bck-content {
     padding: 20px;
     background-color: #D4D4D4;
+    font-weight: 400;
 }
 
 .bck-box.bck-box-4:before {
