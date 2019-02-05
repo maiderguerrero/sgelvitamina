@@ -854,6 +854,7 @@ content: counter(bck-li-counter);
     color: #1D1D1B;
     font-size: 1.8rem;
     font-weight: 100;
+    text-align: left;
 }
 
 #actividad .content .cke_contents ol.bck-ol-7 li:before,
