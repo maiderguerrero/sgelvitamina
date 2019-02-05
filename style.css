@@ -123,7 +123,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 }
 
 #book-index #indice .unit-content .actividades .item {
-    background: #BE1F24;
+    background: #DEDA9D;
     margin: 0px -20px 2px -20px;
     padding-left: 25px;
     opacity: 1;
