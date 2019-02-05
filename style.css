@@ -751,7 +751,7 @@ body:not(.edit) .slider-indicators {
 	content: counter(bck-li-counter);
     margin-top: -1px;
     padding-right: 0px;
-	color: #1D1D1B;
+	color: #BE1F24;
 	font-size: 2.4rem;
 	font-weight: bold;
     text-align: right;
@@ -775,7 +775,7 @@ body:not(.edit) .slider-indicators {
 	padding-left: 4px;
 	position: relative;
 	z-index: 0;
-	color: #A6A6A5;
+	color: #4A9BBB;
 	font-size: 2.5rem;
 	font-weight: bold;
 }
@@ -786,7 +786,7 @@ body:not(.edit) .slider-indicators {
 	content: counter(bck-li-counter, upper-alpha);
     margin-top: 1px;
     padding-right: 0px;
-    color: #1D1D1B;
+    color: #998B95;
     font-size: 2.85rem;
     font-weight: bolder;
     text-align: right;
