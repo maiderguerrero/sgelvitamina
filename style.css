@@ -827,6 +827,39 @@ body:not(.edit) .slider-indicators {
 }
 /**/
 
+/*LISTA ORDENADA 7*/
+
+#actividad .content .texto_curso .bck-ol-7,
+#actividad .content .workspace ul li .bck-ol-7 {
+	list-style-type: none;
+	counter-reset: bck-li-counter;
+}
+
+#actividad .content .texto_curso .bck-ol-7 li,
+#actividad .popover-content .bck-ol-7 li,
+#actividad .content .workspace ul li .bck-ol-7 li {
+	counter-increment: bck-li-counter;
+    padding-left: 25px;
+    position: relative;
+    z-index: 0;
+    color: #1D1D1B;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#actividad .content .texto_curso ol.bck-ol-7 li:before,
+#actividad .popover-content ol.bck-ol-7 li:before,
+#actividad .content .workspace ul li ol.bck-ol-7 li:before {
+	content: counter(bck-li-counter, lower-alpha);
+    margin-top: 1px;
+    padding-right: 0px;
+    color: #1D1D1B;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: right;
+
+}
+/**/
 
 /*BOXES*/
 
