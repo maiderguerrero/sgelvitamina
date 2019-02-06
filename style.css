@@ -184,6 +184,11 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #bo
     background: #be1f24;
 }
 
+#book-index #indice .unit-content .actividades .item .title {
+    font-weight: 800;
+    font-size: 1.7rem;
+}
+
 /*
 
 #book-index #indice .unit-content .actividades .item {
@@ -228,10 +233,8 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover, 
     background-color: #BE1F24;
 }
 
-#book-index #indice .unit-content .actividades .item .title {
-    font-weight: 800;
-    font-size: 1.7rem;
-}
+
+
 
 #book-index #indice .units ul li a .title {
     margin: 0;
