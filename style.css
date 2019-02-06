@@ -164,7 +164,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
             border-radius: 0;
 }
 
-/*INDICE LATERAL ROJO*/
+/*INDICE LATERAL ROJO
 
 #book-index .col-main {
 	top: 0;
@@ -251,7 +251,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover, 
     color: #fff;
 }
 
-/**/
+*/
 
 /*HEADER*/
 
