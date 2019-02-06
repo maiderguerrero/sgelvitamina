@@ -201,6 +201,10 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #bo
     overflow: hidden;
 }
 
+.libro-left ul li a.book-index.active {
+    background-color: #BE1F24;
+}
+
 
 
 /*
