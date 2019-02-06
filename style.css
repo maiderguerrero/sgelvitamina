@@ -145,7 +145,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover a
 body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
 #book-index #indice .unit-content .actividades .item.active,
 #book-index #indice .unit-content .actividades .item.current {
-    background: #4B4B5B;
+    background: #EC968C;
 }
 
 #indice .unit-content .actividades .item.nivel_6 .title,
