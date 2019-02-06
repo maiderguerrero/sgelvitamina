@@ -222,6 +222,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #bo
     background-color: #BE1F24;
 }
 
+
 #book-index #indice .unit-content .actividades .item {
     background: #DEDA9D;
     margin: 0px -20px 2px -20px;
@@ -248,21 +249,6 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover, 
 }
 
 
-
-.libro-left #btn-book-index, #indice .unit-content {
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    background-color: #BE1F24;
-}
-
-
-
-
-#book-index #indice .units ul li a .title {
-    margin: 0;
-    font-size: 2rem;
-}
 
 #indice .unit-content .actividades .item .title {
     word-wrap: break-word;
@@ -355,7 +341,7 @@ body.is_app #actividad .class_slide {
 
 #actividad .content .header .title h3 {
 	color: #E76048;
-	font-size: 2.4rem;
+	font-size: 2rem;
 	font-weight: 400;
 }
 
