@@ -205,6 +205,11 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #bo
     background-color: #BE1F24;
 }
 
+#book-index #indice .units ul li a .title {
+    margin: 0;
+    font-size: 2rem;
+}
+
 
 
 /*
