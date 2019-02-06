@@ -201,14 +201,17 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #bo
     overflow: hidden;
 }
 
+
+
+/*
+
+
 .libro-left #btn-book-index, #indice .unit-content {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
     background-color: #BE1F24;
 }
-
-/*
 
 #book-index #indice .unit-content .actividades .item {
     background: #DEDA9D;
