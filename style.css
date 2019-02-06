@@ -189,15 +189,6 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #bo
     font-size: 1.7rem;
 }
 
-/*
-
-#book-index #indice .unit-content .actividades .item {
-    background: #DEDA9D;
-    margin: 0px -20px 2px -20px;
-    padding-left: 25px;
-    opacity: 1;
-}
-
 #book-index .col-indice {
     padding: 0;
     position: absolute;
@@ -209,6 +200,17 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #bo
     height: 100%;
     overflow: hidden;
 }
+
+/*
+
+#book-index #indice .unit-content .actividades .item {
+    background: #DEDA9D;
+    margin: 0px -20px 2px -20px;
+    padding-left: 25px;
+    opacity: 1;
+}
+
+
 
 #book-index #indice .unit-content .actividades .item {
     background: #e0cccc;
