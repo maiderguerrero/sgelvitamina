@@ -240,7 +240,7 @@ input, button, select, textarea {
 }
 
 #actividad .class_slide {
-    padding: 40px 97px 0px;
+    padding: 5px 75px 0px 75px;
 }
 
 #actividad .class_slide:last-of-type {
@@ -1996,7 +1996,7 @@ table td.bck-td-dos {
     }
 
     #actividad .carousel-inner .class_slide {
-        padding: 40px 20px 0px;
+        padding: 5px 97px 0px 97px;
     }
 
     .navigator {
