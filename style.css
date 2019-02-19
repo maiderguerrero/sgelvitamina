@@ -1431,15 +1431,11 @@ body:not(.edit) .bck-tabcontents .div-contents {
 }
 
 
-
 /*CAJA 3*/
 
 .bck-box.bck-box-3 {
-    background-color: #fff;
-    border-radius: 10px;
-    text-align: left;
+    background-color: #F6F6F6;
     padding: 20px 30px;
-    border: solid 2px #DADADA
 }
 
 .bck-box-3 .bck-title {
@@ -1448,6 +1444,29 @@ body:not(.edit) .bck-tabcontents .div-contents {
 }
 
 .bck-box.bck-box-3 .bck-content {
+    padding: 20px;
+    font-family: 'Conv_FuturaStd-Light', sans-serif;
+}
+
+/**/
+
+
+/*CAJA 4*/
+
+.bck-box.bck-box-4 {
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px 30px;
+    border: solid 2px #DADADA
+}
+
+.bck-box-4 .bck-title {
+    padding: 20px;
+
+}
+
+.bck-box.bck-box-4 .bck-content {
     padding: 10px 25px;
     font-family: 'Conv_FuturaStd-Light', sans-serif;
 }
