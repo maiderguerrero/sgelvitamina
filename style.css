@@ -1414,7 +1414,6 @@ body:not(.edit) .bck-tabcontents .div-contents {
     background-color: #DADADA;
     border-radius: 10px;
     text-align: left;
-    padding: 20px 30px;
 }
 
 .bck-box-2 .bck-title {
@@ -1439,7 +1438,8 @@ body:not(.edit) .bck-tabcontents .div-contents {
 }
 
 .bck-box-3 .bck-title {
-    padding: 10px 20px;
+    padding-left: 20px;
+    padding-top: 10px;
     font-size: 2.3rem;
     font-weight: 600;
     font-family: 'Conv_HelveticaLTStd-Blk', sans-serif;
