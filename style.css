@@ -1414,6 +1414,7 @@ body:not(.edit) .bck-tabcontents .div-contents {
     background-color: #DADADA;
     border-radius: 10px;
     text-align: left;
+    padding: 20px 30px;
 }
 
 .bck-box-2 .bck-title {
@@ -1434,7 +1435,7 @@ body:not(.edit) .bck-tabcontents .div-contents {
 
 .bck-box.bck-box-3 {
     background-color: #F6F6F6;
-    padding: 20px 30px;
+    
 }
 
 .bck-box-3 .bck-title {
