@@ -1440,6 +1440,9 @@ body:not(.edit) .bck-tabcontents .div-contents {
 
 .bck-box-3 .bck-title {
     padding: 10px 20px;
+    font-size: 2.3rem;
+    font-weight: 600;
+    font-family: 'Conv_HelveticaLTStd-Blk', sans-serif;
 
 }
 
