@@ -900,7 +900,7 @@ strong {
     position: absolute;
     height: 6px;
     width: 6px;
-    background-color: #00AEEF;
+    background-color: #1D1D1B;
     margin-top: 12px;
     margin-left: -15px;
     margin-right: 7px;
@@ -915,28 +915,19 @@ strong {
 
 #actividad .content .texto_curso .bck-ul-2 li:before,
 #actividad .content .workspace ul li .bck-ul-2 li:before {
-    content: "- ";
-    background: none;
-    position: relative;
+    content: "";
+    position: absolute;
+    height: 6px;
+    width: 6px;
+    background-color: #A6A6AA;
+    margin-top: 12px;
+    margin-left: -15px;
+    margin-right: 7px;
+    margin-bottom: 2px;
+    border-radius: 100%;
+    
 }
 
-#actividad .content .texto_curso ul.bck-ul-3 li,
-#actividad .content .workspace ul li ul.bck-ul-3 li {
-    list-style: none;
-    padding: 0;
-    margin-left: 15px;
-}
-
-#actividad .content .texto_curso ul.bck-ul-3 li:before,
-#actividad .content .workspace ul li ul.bck-ul-3 li:before {
-    content: "ï¡";
-    font-family: FontAwesome;
-    display: inline-block;
-    margin: 0;
-    margin-left: -20px;
-    background-color: transparent;
-    color: #9665AB;
-}
 
 /**/
 
@@ -1347,24 +1338,7 @@ body:not(.edit) .bck-tabcontents .div-contents {
 
 /**/
 
-/*lista aqui*/
 
-#actividad .content .texto_curso ul li:before, 
-#actividad .content .workspace ul li ul li:before, 
-#actividad .content .texto_curso .bck-ul li:before, 
-#actividad .content .workspace ul li .bck-ul li:before {
-    content: "";
-    position: absolute;
-    height: 6px;
-    width: 6px;
-    background-color: #414141;
-    margin-top: 12px;
-    margin-left: -15px;
-    margin-right: 7px;
-    margin-bottom: 2px;
-    border-radius: 50%;
-
-}
 
 
 /*tooltip*/
