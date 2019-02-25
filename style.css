@@ -1671,13 +1671,7 @@ body:not(.edit) .bck-tabcontents .div-contents {
     margin-bottom: 4px;
 }
 
-.item-container .icono.ablink:after {
-    background-image: url(icon_ablink.png);
-}
 
-.item-container .icono.ascorm:after {
-    background-image: url(icon_ascorm.png);
-}
 
 /**/
 
