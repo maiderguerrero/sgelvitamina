@@ -906,9 +906,6 @@ strong {
     margin-right: 7px;
     margin-bottom: 2px;
     border-radius: 100%;
-    top: 0;
-    left: 0;
-
 }
 
 #actividad .content .texto_curso  ul.bck-ul-2 li,
@@ -1350,7 +1347,7 @@ body:not(.edit) .bck-tabcontents .div-contents {
 
 /**/
 
-/*lista*/
+/*lista aqui*/
 
 #actividad .content .texto_curso ul li:before, 
 #actividad .content .workspace ul li ul li:before, 
