@@ -1740,62 +1740,6 @@ table td.bck-td-dos {
 
 }
 
-.popover-title {
-    margin: 0;
-    background-color: #a3bd31;
-    border-bottom: 1px solid #a3bd31;
-    border-radius: 5px 5px 0 0;
-    font-weight: 600;
-    color: #fff;
-    background: #a3bd31;
-    padding: 10px 20px 10px 60px;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-}
-
-
-.popover-content {
-    padding: 9px 14px;
-    background-color: #ffd402;
-    padding: 10px 20px 10px 20px;
-    text-align: left;
-}
-
-.popover-title:before {
-    content: " ";
-    position: absolute;
-    left: -20px;
-    margin-top: -10px;
-    z-index: 100;
-    padding: 30px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: inline-block;
-    background-image: url(images/ciudadania/iconoglosariociudadania.png) !important;
-}
-
-.modo_revision .popover-title:before {
-    display: none;
-}
-
-.modal-open .popover-title {
-  padding: 8px 14px;
-  margin: 0;
-  font-size: 14px;
-  color: #000000;
-  background-color: #f7f7f7;
-  border-bottom: 1px solid #ebebeb;
-  border-radius: 5px 5px 0 0;
-}
-
-.modal-open .popover-content {
-   background-color: transparent;
-}
-
-.modal-open .popover-title:before {
-    display: none;
-}
-
 
 /* CKEDITOR */
 .actividades .bck-title1 {
