@@ -1236,8 +1236,29 @@ body:not(.edit) .front .bck-flipbox-title, body:not(.edit) .front .bck-flipbox-s
 
 /*TABLAS TAB*/
 
+/*tabs*/
+body:not(.edit) .bck-tabs-box.vertical-tabs .bck-tabslists {
+    float: none;
+    overflow: auto;
+    max-height: 400px;
+    float: left;
+    width: 50%;
+    display: block;
+}
+
+body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #fff;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 1px solid #ccc;
+    border-right: 0;
+}
+
 .bck-tabtitles {
-    background-color: #d4d4d4;
+   background-color: #d4d4d4;
     overflow: hidden;
     outline: 0;
     text-align: center;
@@ -1246,8 +1267,14 @@ body:not(.edit) .front .bck-flipbox-title, body:not(.edit) .front .bck-flipbox-s
     transition: .3s;
     display: inline-block;
     float: left;
-    font-family: 'Conv_FuturaStd-Bold', sans-serif;  
     color: #fff;
+    font-family: 'Conv_FuturaStd-Book', sans-serif;
+
+}
+
+.bck-tabtitles:hover {
+background-color: transparent;
+cursor: default;
 }
 
 .bck-tabslists {
